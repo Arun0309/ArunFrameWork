@@ -3,7 +3,7 @@ package MyTests;
 import org.testng.annotations.Test;
 
 public class GuruTest extends BaseTest  {
-	//kannaiah
+	//Arun
 	@Test
 	
 	void Login() {
