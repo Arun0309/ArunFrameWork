@@ -41,6 +41,13 @@ public class BasePage {
 	void CancelAlert() {
 		driver.switchTo().alert().dismiss();
 	}
+	String Gettext(By locator) {
+		
+		String ABC=driver.findElement(locator).getText();
+		return ABC;
+		
+		
+	}
 	
 	
 	

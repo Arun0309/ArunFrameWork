@@ -33,8 +33,8 @@ public class NewcustomerPage {
 		driver.findElement(Newcustomer).click();
 		driver.findElement(Customername).sendKeys("Krish");
 		driver.findElement(DOB).sendKeys("03-09-1994");
-		driver.findElement(Address).sendKeys("karimnagar");
-		driver.findElement(city).sendKeys("Knr");
+		driver.findElement(Address).sendKeys("street no1,vidhynagar");
+		driver.findElement(city).sendKeys("Karimnagar");
 		driver.findElement(state).sendKeys("Telangana");
 	}
 	

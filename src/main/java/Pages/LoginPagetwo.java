@@ -19,9 +19,9 @@ public class LoginPagetwo extends BasePage  {
 	
 	//Actions Methods
 	
-	public void LoginDetails() {
-		Sendkeys(UserID,"mngr572031");
-		Sendkeys(Password,"rEnErUz");
+	public void LoginDetails(String ID,String PW) {
+		Sendkeys(UserID,ID);
+		Sendkeys(Password,PW);
 		Click(LoginButton);
 		
 		

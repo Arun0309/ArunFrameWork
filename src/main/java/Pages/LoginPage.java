@@ -23,8 +23,8 @@ public class LoginPage {
 	
 	public void Login() {
 		
-		driver.findElement(UserID).sendKeys("mngr572031");
-		driver.findElement(Password).sendKeys("rEnErUz");
+		driver.findElement(UserID).sendKeys("mngr576579");
+		driver.findElement(Password).sendKeys("upUmemA");
 		driver.findElement(LoginButton).click();
 	}
 	
